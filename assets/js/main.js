@@ -34,28 +34,28 @@ modalClose.forEach((mc) => {
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
-let mixer = mixitup(".work__container", {
+let mixer = mixitup(".trabalho__container", {
   selectors: {
-    target: ".work__card",
+    target: ".trabalho__card",
   },
   animation: {
     duration: 300,
   },
 });
 
-/* Link active work */
-const workLinks = document.querySelectorAll(".work__item");
+/* Link active trabalho */
+const trabalhoLinks = document.querySelectorAll(".trabalho__item");
 
-function activeWork(workLink) {
-  workLinks.forEach((wl) => {
-    wl.classList.remove("active-work");
+function activetrabalho(trabalhoLink) {
+  trabalhoLinks.forEach((wl) => {
+    wl.classList.remove("active-trabalho");
   });
-  workLink.classList.add("active-work");
+  trabalhoLink.classList.add("active-trabalho");
 }
 
-workLinks.forEach((wl) => {
+trabalhoLinks.forEach((wl) => {
   wl.addEventListener("click", () => {
-    activeWork(wl);
+    activetrabalho(wl);
   });
 });
 
@@ -159,12 +159,12 @@ sr.reveal(`.nav__menu`, {
   distance: "300px",
 });
 
-sr.reveal(`.home__data`);
-sr.reveal(`.home__handle`, {
+sr.reveal(`.inicio__data`);
+sr.reveal(`.inicio__handle`, {
   delay: 100,
 });
 
-sr.reveal(`.home__social, .home__scroll`, {
+sr.reveal(`.inicio__social, .inicio__scroll`, {
   delay: 100,
   origin: "bottom",
 });
@@ -176,14 +176,14 @@ sr.reveal(`.sobre__img`, {
   distance: "30px",
 });
 
-sr.reveal(`.sobre__data, .sobre__description, .sobre__button-contact`, {
+sr.reveal(`.sobre__data, .sobre__description, .sobre__button-contato`, {
   delay: 100,
   scale: 0.9,
   origin: "right",
   distance: "30px",
 });
 
-sr.reveal(`.skills__content`, {
+sr.reveal(`.habilidades__content`, {
   delay: 100,
   scale: 0.9,
   origin: "bottom",
@@ -197,7 +197,7 @@ sr.reveal(`.services__title, services__button`, {
   distance: "30px",
 });
 
-sr.reveal(`.work__card`, {
+sr.reveal(`.trabalho__card`, {
   delay: 100,
   scale: 0.9,
   origin: "bottom",
@@ -211,14 +211,14 @@ sr.reveal(`.testimonial__container`, {
   distance: "30px",
 });
 
-sr.reveal(`.contact__info, .contact__title-info`, {
+sr.reveal(`.contato__info, .contato__title-info`, {
   delay: 100,
   scale: 0.9,
   origin: "left",
   distance: "30px",
 });
 
-sr.reveal(`.contact__form, .contact__title-form`, {
+sr.reveal(`.contato__form, .contato__title-form`, {
   delay: 100,
   scale: 0.9,
   origin: "right",
