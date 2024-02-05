@@ -16,9 +16,13 @@
   /* --first-hue: 154;
   --sat: 66%;
   --lig: 75%; */
+  /* correto
   --first-hue: 155;
   --sat: 100%;
-  --lig: 50%;
+  --lig: 50%; */
+  --first-hue: 149;
+  --sat: 100%;
+  --lig: 37%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
