@@ -248,6 +248,11 @@ body.light-theme {
   transition: 0.4s;
 }
 
+.nav__logo img{
+  height: 100%;
+  width: 300px;
+}
+
 .nav__logo:hover {
   color: var(--first-color-alt);
 }
