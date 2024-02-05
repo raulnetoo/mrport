@@ -807,7 +807,7 @@ body.light-theme {
   transition: 0.4s;
 }
 
-.contato__form-div {
+/* .contato__form-div {
   position: relative;
   margin-bottom: 2rem;
   height: 4rem;
@@ -845,7 +845,7 @@ body.light-theme {
 
 .contato__form-area textarea {
   resize: none;
-}
+} */
 /*=============== FOOTER ===============*/
 .footer {
   background-color: var(--first-color);
@@ -1049,8 +1049,8 @@ body.light-theme {
   }
 
   .contato__container {
-    display: grid;
-    grid-template-columns: 220px 340px;
+    display: flex;
+    /* grid-template-columns: 220px 340px; caso queira ter duas colunas e o form do lado habilitar*/
     column-gap: 2rem;
     justify-content: center;
   }
@@ -1159,7 +1159,7 @@ body.light-theme {
   }
 
   .habilidades__container {
-    grid-template-columns: repeat(2, 460px);
+    /* grid-template-columns: repeat(2, 460px); caso queira adicionar outra coluna habilitar essa opcao*/
     column-gap: 3rem;
   }
 
