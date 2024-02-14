@@ -752,6 +752,13 @@ body.light-theme {
 .cliente__description {
   font-size: var(--small-font-size);
   margin-bottom: 0.15rem;
+  margin-top: 1.50rem;
+}
+
+.cliente__subtitle {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  margin-bottom: 0.15rem;
 }
 
 /* Swiper class */
