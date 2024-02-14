@@ -59,9 +59,9 @@ trabalhoLinks.forEach((wl) => {
   });
 });
 
-/*=============== SWIPER TESTIMONIAL ===============*/
+/*=============== SWIPER cliente ===============*/
 
-let swiperTestimonial = new Swiper(".testimonial__container", {
+let swipercliente = new Swiper(".cliente__container", {
   spaceBetween: 24,
   loop: true,
   grabCursor: true,
@@ -183,7 +183,7 @@ sr.reveal(`.sobre__data, .sobre__description, .sobre__button-contato`, {
   distance: "30px",
 });
 
-sr.reveal(`.habilidades__content`, {
+sr.reveal(`.formacao__content`, {
   delay: 100,
   scale: 0.9,
   origin: "bottom",
@@ -204,7 +204,7 @@ sr.reveal(`.trabalho__card`, {
   distance: "30px",
 });
 
-sr.reveal(`.testimonial__container`, {
+sr.reveal(`.cliente__container`, {
   delay: 100,
   scale: 0.9,
   origin: "bottom",
