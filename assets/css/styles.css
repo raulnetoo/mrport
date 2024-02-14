@@ -162,8 +162,8 @@ body.light-theme {
   background-color: var(--title-color);
 }
 
-.light-theme .inicio__social-link,
-.light-theme .inicio__scroll,
+/* .light-theme .inicio__social-link, */
+/* .light-theme .inicio__scroll, */
 .light-theme .button,
 .light-theme .button:hover,
 .light-theme .active-trabalho,
