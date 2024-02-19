@@ -833,6 +833,14 @@ body.light-theme {
   transition: 0.4s;
 }
 
+.contato__subtitle {
+  display: block;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  text-align: center;
+margin-bottom: 2.5rem;
+}
+
 /* .contato__form-div {
   position: relative;
   margin-bottom: 2rem;
